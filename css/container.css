@@ -1,5 +1,13 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  
+    }
 
+.container__item {
+    text-align: center;
+    border: solid 1px;
+    padding:10px;
+    margin: 5px 5px;
+
+}
