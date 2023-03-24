@@ -1,13 +1,26 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  
-    }
+}
 
 .container__item {
-    text-align: center;
     border: solid 1px;
     padding:10px;
     margin: 5px 5px;
 
+}
+
+.container__header {
+    color: teal;
+    margin: 0 0 10px;
+    border-bottom: 1px solid teal;
+}
+
+.container__header--smaller {
+    margin: 0;
+}
+
+.container__tekstData {
+    font-weight: bold;
+    margin-top: 2px;
 }

@@ -7,10 +7,12 @@ html {
 }
 
 .cv {
+    font-family: 'Lato', sans-serif;
     margin: 0 auto;
     padding: 10px;
     max-width: 1000px;
     background-color: #eee;
+    line-height: 1.70;
 }
 
 .cv__image {
@@ -19,12 +21,4 @@ html {
     margin: 0 auto;
     border-radius: 50%;
     box-shadow: 0 0 5px teal;;
-}
-
-
-.mainHeader {
-    text-align: center;
-    font-size: 45px;
-    color: teal;
-    border-bottom: 1px solid;
 }
