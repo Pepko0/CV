@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.cv {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #eee;
+}
+
+.cv__image {
+    height:200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px teal;;
+}
+
+
+.mainHeader {
+    text-align: center;
+    font-size: 45px;
+    color: teal;
+    border-bottom: 1px solid;
+}
