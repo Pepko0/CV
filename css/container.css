@@ -4,7 +4,7 @@
 }
 
 .container__item {
-    border: solid 1px;
+    /* border: solid 1px; */
     padding:10px;
     margin: 5px 5px;
 
@@ -25,3 +25,13 @@
     margin-top: 0;
 }
 
+.container__normalTekst {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .container {
+        grid-template-columns: 1fr;
+    };
+
+}
