@@ -35,3 +35,28 @@
     };
 
 }
+
+.buttons { 
+    list-style-type: none;
+    text-decoration-line: underline;
+    color: teal;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons__style {
+    color: teal;
+}
+
+.buttons__style:hover { 
+    list-style-type: none;
+    text-decoration-line: underline;
+    color: hsl(180, 100%, 30%);
+
+}
+
+.list {
+    max-width: 120px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
