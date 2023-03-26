@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *, ::after, ::before {
@@ -20,6 +21,9 @@ html {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    box-shadow: 0 0 5px teal;
+    box-shadow: 0 0 5px #ddd;
 }
 
+.body__dark {
+    background: #eee;
+}
