@@ -11,7 +11,7 @@ html {
     font-family: 'Lato', sans-serif;
     margin: 0 auto;
     padding: 10px;
-    max-width: 1000px;
+    max-width: 1150px;
     /* background-color: #3a3a3a; */
     line-height: 1.70;
 }
@@ -27,4 +27,16 @@ html {
 .body__dark {
     background:  #3a3a3a;
     color: #eee;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.footer__tekst {
+    font-size: 13px;
+    text-align: center;
+    /* border-top: solid 1px;
+    border-bottom: solid 1px; */
+
 }

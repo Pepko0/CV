@@ -6,5 +6,5 @@ const otherName = document.querySelector(".otherName")
 buttonChangeColor.addEventListener("click", () => {
     body.classList.toggle("body__dark");
 
-    if(body.classList.contains("body__dark") ? otherName.innerText = "Przełącz na jasny motyw" : otherName.innerText = "Przełącz na ciemny motyw");
+    if(body.classList.contains("body__dark") ? otherName.innerText = "jasny" : otherName.innerText = "ciemny");
 });
