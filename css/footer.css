@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 20px;
+}
+
+.footer__tekst {
+    font-size: 13px;
+    text-align: center;
+}
+
+@media(max-width: 767px) {
+    .footer__tekst {
+        font-size: 7px;
+    }
+}
