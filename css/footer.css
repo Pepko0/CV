@@ -7,8 +7,8 @@
     text-align: center;
 }
 
-@media(max-width: 767px) {
+/* @media(max-width: 767px) {
     .footer__tekst {
         font-size: 6px;
     }
-}
+} */
