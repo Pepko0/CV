@@ -3,6 +3,7 @@
 }
 
 .footer__tekst {
+    margin: 0px;
     font-size: 13px;
     text-align: center;
 }
