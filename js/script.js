@@ -8,7 +8,6 @@ buttonChangeColor.addEventListener("click", () => {
     body.classList.toggle("body__dark");
 
     if(body.classList.contains("body__dark") ? otherName.innerText = "jasny" : otherName.innerText = "ciemny");
-    if(body.classList.contains("body__dark") ? span.classList.add("span--dark")) : span.classList.remove("span--dark");
 
 });
 
