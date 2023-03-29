@@ -2,7 +2,6 @@ const buttonChangeColor = document.querySelector(".js-button");
 const body = document.querySelector(".body");
 const otherName = document.querySelector(".otherName");
 const slider = document.querySelector(".switch");
-const span = document.querySelector(".span");
 
 buttonChangeColor.addEventListener("click", () => {
     body.classList.toggle("body__dark");
