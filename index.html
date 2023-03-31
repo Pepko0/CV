@@ -15,44 +15,51 @@
     <script defer src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/container.css">
-    <link rel="stylesheet" href="css/headers.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body class="body">
-    <div class="cv">
+    <div class="page">
 
         <div class="button__container">
             <button class="js-button button__upPage" title="Zemienia kolor strony">Włącz <span
                     class="otherName">ciemny</span> motyw</button>
             <div></div>
             <a class="button__upPage" target="_blank"
-                href="https://drive.google.com/drive/folders/1kI58mb6t7jC1XV-UYkqcbxVROPgxaOwr"
+                href="https://drive.google.com/file/d/16hGExkEIXRHxEGqFvoJwDekPHdG6CKzv/view?usp=share_link"
                 target='_blank' title="Otwiera CV w formie pdf w nowej karcie">CV.pdf</a>
         </div>
-        <nav>
-            <ul class="list">
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - Dane osobowe "
+        
+        
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - Dane osobowe "
                         href="#DaneOsobowe">Dane osobowe</a></li>
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - Doświadczenie"
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - Doświadczenie"
                         href="#Doświadczenie">Doświadczenie</a></li>
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - Wykształcenie"
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - Wykształcenie"
                         href="#Wykształcenie">Wykształcenie</a></li>
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - Umiejętności"
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - Umiejętności"
                         href="#umiejętności">Umiejętności</a></li>
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - Kursy / Certyfikaty"
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - Kursy / Certyfikaty"
                         href="#kursy">Kursy / Certyfikaty</a></li>
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - Zainteresowania"
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - Zainteresowania"
                         href="#zainteresowania">Zainteresowania</a></li>
-                <li class="buttons"><a class="buttons__style" title="Przekierowanie do sekcji - P mnie!"
+                <li class="navigation__buttons"><a class="navigation__buttonsStyle" title="Przekierowanie do sekcji - P mnie!"
                         href="#O-mnie">O mnie! </a></li>
             </ul>
         </nav>
-        <header>
-            <img class="cv__image" src="images/kacper.jpg">
+        
+        
+        <header class="header">
+            <img class="header__image" src="images/kacper.jpg">
 
-            <h1 class="mainHeader">Kacper Lewko</h1>
+            <h1 class="header--main">Kacper Lewko</h1>
         </header>
+        
+        
+        
         <div class="container">
             <div>
                 <div class="container__item">
@@ -70,6 +77,78 @@
                                 class="span">GitHub</span></a></p>
 
                 </div>
+                <div class="container__item">
+                    <h2 id="O-mnie" class="container__header">O mnie!</h2>
+                    <p>Naukę programowania zacząłem w szkole średniej. Po szkole, dostałem propozycję dobrej pracy, i
+                        zacząłem obsługiwać <b>sklep inernetowy.</b> W pracy w wolnym czasie <b>uczyłem się</b>
+                        kreatorów graficznych, <b>JavaScript, CSS, HTML.</b> Udało mi się również uczestniczyć w kursach
+                        jako <b>Tester Manualny</b> i <b>Tester Automatyzujący.</b> Wiem, że w dalszym ciągu, <b>chcę
+                            się rozwijać w kierunku IT</b>, i chcę dołożyć wszelkich starań aby <b>stawać się coraz
+                            lepszym</b> w tym co robię. Chciałbym dołączyć do zespołu, który mógłby mnie ukierunkować w
+                        dalszym rozwoju. </p>
+                </div>
+                <div class="container__item">
+                    <h2 id="umiejętności" class="container__header">Umiejętności</h2>
+                    <ul>
+                        <li>Znajomość JavaScript</li>
+                        <li>Znajomość HTML i CSS</li>
+                        <li>Obsługa slack</li>
+                        <li>Wiedza na temat testowania manualnego</li>
+                        <li>Wiedza na temat testowania automatyzującego</li>
+                        <li>Dodawanie klas zgodnie z konwencją BEM</li>
+                        <li>Praca z GitHub</li>
+                        <li>Dodawanie OpenGraph</li>
+                        <li>Życzliwość i umiejętność pracy w zesople</li>
+                        <li>Zaparczywość w osiąganiu celów</li>
+                        <li>Chęć do poszerzania swojej wiedzy</li>
+                        <li>Chęć dzilenia się z innymi zdobytą wiedzą</li>
+                        <li>Chęć jak najelpszego odbioru przez klienta</li>
+                    </ul>
+
+
+                </div>
+                <div class="container__item">
+                    <h2 id="Wykształcenie" class="container__header">Wykształcenie</h2>
+                    <h3 class="container__header--smaller">Zespół Szkół Elektrycznych</h3>
+                    <p class="container__tekstData">od 09.2017 - 05.2021</p>
+                    <p>Kierunek: Technik informatyk</p>
+                    <h3 class="container__header--smaller">YouCode - internetowa szkoła IT</h3>
+                    <p class="container__tekstData">od 10.2022 - obecnie</p>
+
+                </div>
+ 
+
+            </div>
+
+
+
+
+
+
+
+
+            <div>
+
+ 
+                <div class="container__item">
+                    <h2 id="kursy" class="container__header">Kursy / Certyfikaty</h2>
+                    <ul>
+                        <li>Kurs Stron Internetowych</li>
+                        <li>Kurs Tester manualny</li>
+                        <li>Kurs Tester automatyzujący</li>
+                        <li>Kurs z przedsiębiorczości</li>
+                        <li>Prawojazdy kategori B</li>
+                        <li>Kurs Barmański</li>
+                    </ul>
+                </div>
+
+                <div class="container__item">
+                    <h2 id="O-mnie" class="container__header">Języki obce</h2>
+                    <p><b>Język Angielski:</b> Komunikatywny</p>
+                    <p><b>Język Niemiecki:</b> Podstawa</p>
+                    <p><b>Język Rosyjski:</b> Podstawa</p>
+                </div>
+                
                 <div class="container__item">
                     <h2 id="Doświadczenie" class="container__header">Doświadczenie</h2>
                     <h3 class="container__header--smaller">Obsługa sklepu internetowego</h3>
@@ -100,58 +179,6 @@
 
                 </div>
                 <div class="container__item">
-                    <h2 id="Wykształcenie" class="container__header">Wykształcenie</h2>
-                    <h3 class="container__header--smaller">Zespół Szkół Elektrycznych</h3>
-                    <p class="container__tekstData">od 09.2017 - 05.2021</p>
-                    <p>Kierunek: Technik informatyk</p>
-                    <h3 class="container__header--smaller">YouCode - internetowa szkoła IT</h3>
-                    <p class="container__tekstData">od 10.2022 - obecnie</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-
-
-
-            <div>
-
-                <div class="container__item">
-                    <h2 id="umiejętności" class="container__header">Umiejętności</h2>
-                    <ul>
-                        <li>Znajomość JavaScript</li>
-                        <li>Znajomość HTML i CSS</li>
-                        <li>Obsługa slack</li>
-                        <li>Wiedza na temat testowania manualnego</li>
-                        <li>Wiedza na temat testowania automatyzującego</li>
-                        <li>Dodawanie klas zgodnie z konwencją BEM</li>
-                        <li>Praca z GitHub</li>
-                        <li>Dodawanie OpenGraph</li>
-                        <li>Życzliwość i umiejętność pracy w zesople</li>
-                        <li>Zaparczywość w osiąganiu celów</li>
-                        <li>Chęć do poszerzania swojej wiedzy</li>
-                        <li>Chęć dzilenia się z innymi zdobytą wiedzą</li>
-                        <li>Chęć jak najelpszego odbioru przez klienta</li>
-                    </ul>
-
-
-                </div>
-                <div class="container__item">
-                    <h2 id="kursy" class="container__header">Kursy / Certyfikaty</h2>
-                    <ul>
-                        <li>Kurs Stron Internetowych</li>
-                        <li>Kurs Tester manualny</li>
-                        <li>Kurs Tester automatyzujący</li>
-                        <li>Kurs z przedsiębiorczości</li>
-                        <li>Prawojazdy kategori B</li>
-                        <li>Kurs Barmański</li>
-                    </ul>
-                </div>
-                <div class="container__item">
                     <h2 id="zainteresowania" class="container__header">Zainteresowania</h2>
                     <ul>
                         <li>W wolnych chwilach planuję podróże, oraz uczę się języka Angielskiego</li>
@@ -161,23 +188,7 @@
 
                     </ul>
                 </div>
-                <div class="container__item">
-                    <h2 id="O-mnie" class="container__header">Języki obce</h2>
-                    <p><b>Język Angielski:</b> Komunikatywny</p>
-                    <p><b>Język Niemiecki:</b> Podstawa</p>
-                    <p><b>Język Rosyjski:</b> Podstawa</p>
-                </div>
-
-                <div class="container__item">
-                    <h2 id="O-mnie" class="container__header">O mnie!</h2>
-                    <p>Naukę programowania zacząłem w szkole średniej. Po szkole, dostałem propozycję dobrej pracy, i
-                        zacząłem obsługiwać <b>sklep inernetowy.</b> W pracy w wolnym czasie <b>uczyłem się</b>
-                        kreatorów graficznych, <b>JavaScript, CSS, HTML.</b> Udało mi się również uczestniczyć w kursach
-                        jako <b>Tester Manualny</b> i <b>Tester Automatyzujący.</b> Wiem, że w dalszym ciągu, <b>chcę
-                            się rozwijać w kierunku IT</b>, i chcę dołożyć wszelkich starań aby <b>stawać się coraz
-                            lepszym</b> w tym co robię. Chciałbym dołączyć do zespołu, który mógłby mnie ukierunkować w
-                        dalszym rozwoju. </p>
-                </div>
+ 
             </div>
         </div>
 

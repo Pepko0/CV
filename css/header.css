@@ -1,0 +1,14 @@
+.header--main {
+    text-align: center;
+    font-size: 45px;
+    color: teal;
+    border-bottom: 1px solid;
+}
+
+.header__image {
+    height:200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ddd;
+}

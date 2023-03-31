@@ -7,21 +7,16 @@ html {
     box-sizing: inherit;
 }
 
-.cv {
+.page {
     font-family: 'Lato', sans-serif;
     margin: 0 auto;
     padding: 10px;
-    max-width: 1000px;
+    max-width: 1200px;
     line-height: 1.70;
+    font-size: 18px;
 }
 
-.cv__image {
-    height:200px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 0 0 5px #ddd;
-}
+
 
 .body__dark {
     background:  #3a3a3a;
