@@ -1,0 +1,24 @@
+.navigation__buttons { 
+    list-style-type: none;
+    text-decoration-line: underline;
+    color: teal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigation__buttonsStyle {
+    color: teal;
+}
+
+.navigation__buttonsStyle:hover { 
+    list-style-type: none;
+    text-decoration-line: underline;
+    color: hsl(180, 100%, 30%);
+    cursor: pointer;
+}
+
+.navigation__list {
+    display: block;
+    margin-left: 0px;
+    padding-left: 0px;
+}
