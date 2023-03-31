@@ -35,3 +35,8 @@
     };
 
 }
+
+.container__linkTekst {
+    color: teal;
+    font-weight: bold;
+}
