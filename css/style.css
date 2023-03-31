@@ -23,3 +23,8 @@ html {
     color: #eee;
 }
 
+@media (max-width: 767px) {
+    .page {
+        font-size: 15px;
+    }
+}
