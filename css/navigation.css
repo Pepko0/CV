@@ -1,13 +1,13 @@
 .navigation__buttons { 
     list-style-type: none;
     text-decoration-line: underline;
-    color: teal;
+    color: hsl(180, 100%, 25%);
     font-weight: bold;
     font-size: 20px;
 }
 
 .navigation__buttonsStyle {
-    color: teal;
+    color: hsl(180, 100%, 25%);
 }
 
 .navigation__buttonsStyle:hover { 

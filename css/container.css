@@ -11,9 +11,9 @@
 
 .container__header {
     padding-top: 10px;
-    color: teal;
+    color: hsl(180, 100%, 25%);
     margin: 0 0 10px;
-    border-bottom: 1px solid teal;
+    border-bottom: 1px solid hsl(180, 100%, 25%);
 }
 
 .container__header--smaller {
@@ -37,6 +37,11 @@
 }
 
 .container__linkTekst {
-    color: teal;
+    color: hsl(180, 100%, 25%);
     font-weight: bold;
+}
+
+.container__linkTekst:hover{
+    color: hsl(180, 100%, 30%);
+
 }
