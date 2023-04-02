@@ -39,6 +39,7 @@
 .container__linkTekst {
     color: hsl(180, 100%, 25%);
     font-weight: bold;
+    text-decoration: none;
 }
 
 .container__linkTekst:hover{
